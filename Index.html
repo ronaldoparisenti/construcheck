@@ -1,0 +1,116 @@
+<html>
+<head>
+    <style>
+        body {
+            font-family: Arial, Voga;
+            background-color: #f0f0f0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 10px;
+        }
+
+        .logo {
+            width: 120px;
+            height: auto;
+            float: left;
+            margin-right: 20px;
+        }
+
+        .title {
+            font-size: 24px;
+            font-weight: bold;
+            color: black;
+            line-height: 20px;
+        }
+
+        .subtitle {
+            font-size: 16px;
+            color: black;
+            clear: both;
+        }
+
+        .content {
+            font-size: 14px;
+            color: black;
+            line-height: 25px;
+        }
+
+        .italico {
+            font-size: 14px;
+            font-style: italic;
+            color: Blue;
+            line-height: 25px;
+        }
+
+        .line {
+            width: 650px;
+            height: 1px;
+            background-color: black;
+            border: none;
+            margin-top: 1px;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 10px;
+            margin-top: 10px;
+        }
+
+            .gallery figure {
+                margin: 0;
+            }
+
+            .gallery img {
+                width: 220;
+                height: 300;
+            }
+
+            .gallery figcaption {
+                font-size: 12px;
+                font-style: italic;
+                color: dimgray;
+                text-align: center;
+                margin-top: 10px;
+            }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="logo.jpg" alt="Logo da empresa" class="logo">
+        <h1 class="title"> ConStruCheck  </h1>
+        <hr class="line">
+        <h1 class="title"> Especialista em Análise Estrutural </h1>
+        <h2 class="content">A mais de 15 anos</h2>
+        <br>
+        <h2 class="subtitle"> Serviços: </h2>
+        <li class="content"> ATP - Análise de conformidade técnica em projeto estrutural </li>
+        <li class="content"> Consultoria em projetos de estruturas de concreto armado, alvenaria estutural e protendido </li>
+        <li class="content"> Análise de mercado para desenvolvimento de ferramentas e metodologias em projetos de edificações.</li>
+        <br>
+        <h2 class="subtitle"> Trabalhos rescentes: </h2>
+        <div class="gallery">
+            <figure>
+                <img src="ATP-VMG.png" alt="Imagem do projeto VMG">
+                <figcaption>ATP - Edifício de 30 Pavimentos</figcaption>
+            </figure>
+            <figure>
+                <img src="ATP-VAB.png" alt="Imagem do projeto VAB">
+                <figcaption>ATP - Edifício de 34 Pavimentos</figcaption>
+            </figure>
+            <figure>
+                <img src="EST-BIM1.png" alt="Imagem do projeto BIM1">
+                <figcaption> Projeto estrutrural com compatibilização BIM e subsolo com sub-pressão </figcaption>
+            </figure>
+        </div>
+        <br> <br />
+        <div class="italico">
+            Contato: <strong> ronaldo.ConStruCheck@gmail.com </strong>
+            <br> <br />
+        </div>
+    </div>
+</body>
+</html>
